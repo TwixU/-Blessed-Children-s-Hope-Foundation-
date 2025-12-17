@@ -1,11 +1,64 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0ea5e9" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.tailwindcss.com" />
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/fonts/Inter.var.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/Poppins.var.woff2" as="font" type="font/woff2" crossorigin />
+    
+    <!-- Favicon and App Icons -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blessed Children's Hope Foundation</title>
+    <link rel="alternate icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+    
+    <!-- Preload critical CSS (inlined) -->
+    <style id="critical-css">
+      /* Critical CSS will be inlined here during build */
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap');
+      
+      /* Critical styles for above-the-fold content */
+      body { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+      h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', system-ui, -apple-system, sans-serif; }
+    </style>
+    <meta name="description" content="Blessed Children's Hope Foundation - Providing hope and opportunities for underprivileged children through education, healthcare, and community support." />
+    <meta name="keywords" content="children's charity, education, healthcare, community support, non-profit, donate, volunteer, children's foundation" />
+    <meta name="author" content="Blessed Children's Hope Foundation" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://blessedchildrenshope.org/" />
+    <meta property="og:title" content="Blessed Children's Hope Foundation" />
+    <meta property="og:description" content="Providing hope and opportunities for underprivileged children through education, healthcare, and community support." />
+    <meta property="og:image" content="https://blessedchildrenshope.org/images/og-image.jpg" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://blessedchildrenshope.org/" />
+    <meta name="twitter:title" content="Blessed Children's Hope Foundation" />
+    <meta name="twitter:description" content="Providing hope and opportunities for underprivileged children through education, healthcare, and community support." />
+    <meta name="twitter:image" content="https://blessedchildrenshope.org/images/twitter-card.jpg" />
+    
+    <title>Blessed Children's Hope Foundation | Empowering Children's Futures</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {

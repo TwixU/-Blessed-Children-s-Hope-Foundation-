@@ -1,0 +1,47 @@
+{
+  "name": "Blessed Children's Hope Foundation",
+  "short_name": "BCHF",
+  "description": "Providing hope and opportunities for underprivileged children",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot1.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "description": "Homepage of Blessed Children's Hope Foundation"
+    }
+  ],
+  "categories": ["education", "charity", "nonprofit"],
+  "shortcuts": [
+    {
+      "name": "Donate Now",
+      "short_name": "Donate",
+      "description": "Support our cause with a donation",
+      "url": "/donate",
+      "icons": [{ "src": "/icons/donate-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Our Programs",
+      "short_name": "Programs",
+      "description": "Learn about our programs",
+      "url": "/programs"
+    }
+  ]
+}
