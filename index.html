@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blessed Children's Hope Foundation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primaryBrand: '#0ea5e9', // Sky Blue 500 - Hopeful, Calming, Trustworthy
+              secondaryBrand: '#f59e0b', // Amber 500 - Warm, Positive, Hopeful
+              backgroundDark: '#111827', // Gray 900
+              backgroundLight: '#ffffff', // White
+              textHeadingDarkBg: '#F9FAFB', // Gray 50
+              textBodyDarkBg: '#D1D5DB', // Gray 300
+              textLightBg: '#1F2937', // Gray 800
+              borderDarkBg: '#374151', // Gray 700
+            },
+            fontFamily: {
+              heading: ['Poppins', 'sans-serif'],
+              body: ['Inter', 'sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.5",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-backgroundLight text-textLightBg font-body">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
